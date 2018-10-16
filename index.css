@@ -1,0 +1,20 @@
+body{
+    margin: 0%;
+    padding: 0%;
+}
+div{
+    transform: rotate3d(2,2,1,0);
+    border-radius: 50%;
+    transition-duration: 2s;
+    height: 100px;
+    width: 100px;
+    transform-style: preserve-3d;
+    perspective: 800px;
+    background: url(/images/ctf_poster_.png) no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+.div1:hover{
+    transform: rotate3d(2,2,1,360deg);
+}
